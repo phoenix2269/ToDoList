@@ -8,6 +8,7 @@ function newItem() {
         alert("You must enter something!");
     } else {
         $('#list').append(li);
+        $('#input').val('');
     }
 
     // Crossing out an item on the list
